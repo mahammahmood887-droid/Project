@@ -8,3 +8,14 @@ Total: 7250
 Discount: 362.5
 Final: 6887.5
 --------------------------
+Bill #1
+Total: 0
+Discount: 0
+Final: 0
+--------------------------
+Bill #2
+Lactulose 4 1400
+Total: 1400
+Discount: 70
+Final: 1330
+--------------------------

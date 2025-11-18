@@ -1,11 +1,17 @@
 ====== STAFF REPORT ======
 
-Name: amir khan 
+Name: Ayesha 
+Role: nurse
+------------------------
+Name: Imran
+Role: nurse
+------------------------
+Name: Asad
 Role: Doctor
 ------------------------
-Name: Abdullah ashfaq
-Role: male nurse
+Name: Fahad
+Role: Doctor
 ------------------------
-Name: fatima shafeeq
+Name: Khadija
 Role: Doctor
 ------------------------

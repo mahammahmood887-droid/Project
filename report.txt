@@ -44,7 +44,7 @@ Expiry: 3/5/27
 ID: 8
 Name: Lactulose
 Price: 350
-Quantity: 250
+Quantity: 246
 Expiry: 5/8/26
 --------------------------
 ID: 9
@@ -64,4 +64,58 @@ Name: Clonidine
 Price: 350
 Quantity: 250
 Expiry: 4/7/27
+--------------------------
+ID: 12
+Name: Gauze Bandage 
+Price: 20
+Quantity: 300
+Expiry: 24/5/26
+--------------------------
+ID: 13
+Name: Adhesive Bandages
+Price: 50
+Quantity: 150
+Expiry: 3/5/26
+--------------------------
+ID: 14
+Name: Liquid Bandages
+Price: 60
+Quantity: 300
+Expiry: 2/6/26
+--------------------------
+ID: 15
+Name: Compression Bandages
+Price: 30
+Quantity: 200
+Expiry: 5/4/26
+--------------------------
+ID: 16
+Name: Kirigami Bandages
+Price: 100
+Quantity: 300
+Expiry: 5/7/26
+--------------------------
+ID: 17
+Name: Persol AC Cream
+Price: 300
+Quantity: 50
+Expiry: 2/4/26
+--------------------------
+ID: 18
+Name: Herbal Piles Ointment
+Price: 400
+Quantity: 40
+Expiry: 6/5/27
+--------------------------
+ID: 19
+Name: Oxiconazole 50 Gm Zoderm E Cream
+Price: 450
+Quantity: 60
+Expiry: 7/6/26
+--------------------------
+ID: 20
+Name: Wellona Pharma Fusidic Acid Cream
+Price: 800
+Quantity: 30
+Expiry: 6/5/26
 --------------------------
