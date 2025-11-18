@@ -3,7 +3,24 @@
 #include <fstream>
 using namespace std;
 
+bool sameText(const char a[], const char b[]) {
+    int i = 0;
+    while (a[i] != '\0' && b[i] != '\0') {
+        if (a[i] != b[i]) return false;
+        i++;
+    }
+    return a[i] == b[i];
+}
 
+bool biggerText(const char a[], const char b[]) {
+    int i = 0;
+    while (a[i] != '\0' && b[i] != '\0') {
+        if (a[i] > b[i]) return true;
+        if (a[i] < b[i]) return false;
+        i++;
+    }
+    return a[i] != '\0';
+}
 bool isFileEmpty(const char* filename){
     ifstream f(filename, ios::binary);
     if(!f) return true;
@@ -161,3 +178,50 @@ void displayStaffFromFile(const char* filename) {
     fin.close();
 }
 
+bool openStaffReportWithPassword(const char* password) {
+    return sameText(password, STAFF_PASSWORD);
+}
+
+void displayStaffReport(const char* filename) {
+    ifstream fin(filename);
+    if (!fin) {
+        cout << "Staff report file not found.\n";
+        return;
+    }
+    char line[256];
+    cout << "\n====== STAFF REPORT ======\n";
+    while (fin.getline(line, 256)) {
+        cout << line << endl;
+    }
+    fin.close();
+}
+
+void addStaff(char staff[][50], char roles[][50], int& count) {
+    int n;
+    cout << "How many staff members do you want to add? ";
+    cin >> n;
+    cin.ignore();
+
+    for (int i = 0; i < n; i++) {
+        cout << "\nEnter staff name: ";
+        cin.getline(staff[count], 50);
+
+        cout << "Enter staff role: ";
+        cin.getline(roles[count], 50);
+
+        count++;
+    }
+    cout << "Staff added successfully.\n";
+}
+
+void saveStaffToFile(const char* filename, char staff[][50], char roles[][50], int count) {
+    ofstream fout(filename);
+    fout << "====== STAFF REPORT ======\n\n";
+    for (int i = 0; i < count; i++) {
+        fout << "Name: " << staff[i] << "\n";
+        fout << "Role: " << roles[i] << "\n";
+        fout << "------------------------\n";
+    }
+    fout.close();
+    cout << "Staff report saved.\n";
+}

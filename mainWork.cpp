@@ -162,7 +162,7 @@ void saveStaffToFile(const char* filename, char staff[][50], char roles[][50], i
         fout << "------------------------\n";
     }
     fout.close();
-    cout << "Staff report saved .\n";
+    cout << "Staff report saved.\n";
 }
 
 // -------------------- MEDICINE FUNCTIONS --------------------
