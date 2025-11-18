@@ -1,0 +1,10 @@
+Bill #1
+Aspirin for pain relief 2 800
+Clobetasol 6 3000
+Novidate 3 1350
+Paracetemol 3 900
+Laxatives 4 1200
+Total: 7250
+Discount: 362.5
+Final: 6887.5
+--------------------------

@@ -1,0 +1,67 @@
+====== PHARMACY INVENTORY REPORT ======
+ID: 1
+Name: Aspirin for pain relief
+Price: 400
+Quantity: 198
+Expiry: 24/6/26
+--------------------------
+ID: 2
+Name: Baclofen
+Price: 300
+Quantity: 250
+Expiry: 24/7/26
+--------------------------
+ID: 3
+Name: Chlorhexidine
+Price: 350
+Quantity: 200
+Expiry: 4/7/27
+--------------------------
+ID: 4
+Name: Clobetasol
+Price: 500
+Quantity: 294
+Expiry: 22/7/27
+--------------------------
+ID: 5
+Name: Paracetemol
+Price: 300
+Quantity: 197
+Expiry: 3/6/26
+--------------------------
+ID: 6
+Name: Novidate
+Price: 450
+Quantity: 297
+Expiry: 24/8/26
+--------------------------
+ID: 7
+Name: Laxatives
+Price: 300
+Quantity: 246
+Expiry: 3/5/27
+--------------------------
+ID: 8
+Name: Lactulose
+Price: 350
+Quantity: 250
+Expiry: 5/8/26
+--------------------------
+ID: 9
+Name: Clopidogrel
+Price: 400
+Quantity: 350
+Expiry: 3/7/27
+--------------------------
+ID: 10
+Name: Bumatenide
+Price: 500
+Quantity: 350
+Expiry: 1/6/2
+--------------------------
+ID: 11
+Name: Clonidine
+Price: 350
+Quantity: 250
+Expiry: 4/7/27
+--------------------------
